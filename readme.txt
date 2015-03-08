@@ -1,3 +1,5 @@
+An animation of this code running with the default initial conditions (slightly perturbed unstable equilibrium) can be seen here: https://www.youtube.com/watch?v=0Vp95H8dfSc
+
 Files: 
 	doublePendulum.c
 	doublePendulumAnimation.py
