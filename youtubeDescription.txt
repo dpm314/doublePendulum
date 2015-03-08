@@ -1,0 +1,5 @@
+﻿Animation of the double pendulum system. This nonlinear physical system is one of the simplest which exhibits deterministic chaos. There are 4 “dimensions” of this system, the angles of the two pendula, and their momentum. The animation shows the pendula evolving in time, starting from an unstable initial condition, and proceeding under the influence of gravity. The plot shows the momentum of the first pendulum on the x-axis plotted against the momentum of the second pendulum on the y-axis. This phase space reveals some interesting structure of the chaotic motion. 
+
+The animation is made in Python and pygame, and the numerical integration of the nonlinear equations of motion are done in a handwritten Runge-Kutta explicit 4th order solver in C, which python calls as a compiled extension and executes completely in only milliseconds. 
+
+See scienceworld.wolfram.com/physics/DoublePendulum.html for details of the Lagrangian equations of motion evaluated for this animation. 
